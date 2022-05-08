@@ -1,0 +1,71 @@
+.FooterContainer {
+  background-color: black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.LinksContainer {
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px 0;
+}
+.LinksContainer div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.LinksContainer a {
+  text-decoration: none;
+  color: white;
+  margin-bottom: 20px;
+}
+.LinksContainer a:hover {
+  opacity: 0.5;
+}
+.FormContainer {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+}
+.FormContainer h3 {
+  margin: 0 0 20px;
+  color: white;
+}
+.FormContainer input {
+  font-family: "Poppins", sans-serif;
+  width: 70%;
+  text-align: center;
+  padding: 5px 20px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  border: 0;
+  background-color: rgb(50, 50, 50);
+  color: white;
+}
+.FormContainer textarea {
+  font-family: "Poppins", sans-serif;
+  width: 70%;
+  text-align: center;
+  padding: 5px 20px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  border: 0;
+  background-color: rgb(50, 50, 50);
+  color: white;
+  resize: none;
+}
+.FormContainer button {
+  font-family: "Poppins", sans-serif;
+  width: 60%;
+  padding: 5px 0;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  border: 0;
+  background-color: rgb(150, 150, 150);
+  color: white;
+  cursor: pointer;
+}
