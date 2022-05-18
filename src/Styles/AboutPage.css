@@ -1,0 +1,21 @@
+.AboutPageContainer {
+  height: 100vh;
+  background-color: rgb(50, 50, 50);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.InfoContainer {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0 5%;
+}
+.ImageContainer {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
