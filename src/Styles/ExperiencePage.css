@@ -1,0 +1,44 @@
+.ExperiencePageContainer {
+  height: 30vh;
+  background-color: rgb(20, 20, 20);
+  padding: 30px 5%;
+}
+.ExperiencePageContainer > span {
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+}
+.ExperienceMainContainer {
+  margin-top: 30px;
+}
+.ExperienceMainContainer::before {
+  content: "";
+  position: absolute;
+  margin: 5px 0 0 40px;
+  width: 5px;
+  height: 100px;
+  background: rgb(30, 30, 30);
+  border-radius: 10px;
+  border: 1px solid rgb(40, 40, 40);
+}
+.ExperienceContentContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 30px 70px;
+  padding: 20px 30px;
+  border-radius: 0 25px 25px;
+  background-color: rgb(30, 30, 30);
+}
+.ExperienceContentContainer::before {
+  content: "";
+  position: absolute;
+  margin: -15px 0 0 -70px;
+  width: 20px;
+  height: 20px;
+  background: rgb(30, 30, 30);
+  border-radius: 50%;
+  border: 3px solid rgb(40, 40, 40);
+}
+.ExperienceContentContainer > span {
+  color: white;
+}
